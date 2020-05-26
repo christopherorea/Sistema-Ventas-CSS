@@ -1,0 +1,90 @@
+*{
+	margin: 0px;
+	font-family: Helvetica;
+}
+
+nav{
+	display: block;
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+#prendas li{
+	display: inline;
+	margin: 0px auto;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 10px;
+	cursor: pointer;
+	background-color: #999;
+	padding: 5px;
+	border-radius: 20%;
+}
+
+li:hover{
+	color: #a2a2a2;
+}
+
+#menu{
+	width: 30%;
+	height: 100%;
+	display: block;
+	float: left;
+	background-color: red;
+	margin: 0px auto;
+	padding: 20px;
+	position: fixed;
+	color: #fff;
+}
+
+#muestras{
+	width: 70%;
+	height: 100%;
+	display: block;
+	float: right;
+	background-color: #000;
+	margin: 0px auto;
+	padding: 20px;
+	position: fixed;
+	left: 30%;
+	color: #fff;
+}
+
+
+
+.info{
+	width: 80%; 
+	margin: 0px auto;
+	display: block;
+	margin-top: 15px;
+}
+
+.info li{
+	cursor: pointer;
+}
+
+#ropa{
+	max-width: 50%;
+	height: auto;
+	display: block;
+	margin: 0px auto;
+	margin-top: 10px;
+}
+
+img{
+	max-width: inherit;
+	position: absolute;
+}
+
+#pdf{
+	position: absolute;
+	bottom: 5%;
+	right: 5%;
+
+}
+
+#HTMLtoPDF{
+	display: none;
+}
+

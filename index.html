@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sistema de Ventas</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+	<!--JQuery-->
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+
+	<!--JQUERY UI-->
+	<link rel="stylesheet" href="js/jquery-ui/jquery-ui.min.css" />
+	<link rel="stylesheet" href="js/jquery-ui/jquery-ui.structure.min.css" />
+	<link rel="stylesheet" href="js/jquery-ui/jquery-ui.theme.min.css" />
+	<script type="text/javascript" src="js/jquery-ui/jquery-ui.min.js"></script>
+
+	<!--PDF's-->
+	<script type="text/javascript" src="js/jspdf.js"></script>
+	<script type="text/javascript" src="js/pdfFromHTML.js"></script>
+
+
+	<!--Mis scripts-->
+	<script type="text/javascript" src="js/js.js"></script>
+	<script type="text/javascript" src="js/camisas.js"></script>
+	<script type="text/javascript" src="js/pantalones.js"></script>
+</head>
+<body>
+	<!--Navegacion-->
+	<nav>
+		<h1>Sistema de ventas</h1>
+		<br>
+		<ul id="prendas">
+			<li id="camisas">Camisas</li>
+			<li id="pantalones">Pantalones</li>
+			<li id="detalles">Detalles</li>
+		</ul>
+	</nav>
+
+	<div id="menu">
+		<h2>Opciones de menú</h2>
+	</div>
+	<div id="muestras">
+		<h2>Muestras</h1>
+	</div>
+	<button id="pdf" style="display: none">Crear config</button>
+	<div id="HTMLtoPDF"></div>
+</body>
+</html>
